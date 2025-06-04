@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>나의 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>김갈렙</h1>
+    <nav>
+      <a href="#about">네팔에서 일하는 사람</a>
+      <a href="#gallery">갤러리</a>
+      <a href="#contact">+9779808252753</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>소개</h2>
+      <p>안녕하세요! 저는 네팔에서 IT일하는  김갈렙 입니다.  IT 개발에 열정을 가지고 있습니다.</p>
+    </section>
+
+   <section id="gallery">
+  <h2>갤러리</h2>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1581090700227-1e8a921efb56?auto=format&fit=crop&w=800&q=80" alt="코딩 작업 중" />
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="노트북과 커피" />
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="개발자 데스크" />
+  </div>
+</section>
+
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="이름" required />
+        <input type="email" name="email" placeholder="이메일" required />
+        <textarea name="message" placeholder="메시지" required></textarea>
+        <button type="submit">보내기</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 김갈렙. 모든 권리 보유.</p>
+  </footer>
+</body>
+</html>
